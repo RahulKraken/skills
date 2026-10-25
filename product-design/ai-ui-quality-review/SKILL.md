@@ -32,7 +32,9 @@ Done is not good. Quality filtering used to happen throughout the process; with 
 3. **Coherence test.** Do the screens hold together as one journey, or only look good in isolation?
 4. **Detail test.** Go one level deeper than a customer could see. Flag arbitrary choices (a color that could just as well have been another) and fix or justify them.
 5. **Surprise test.** Is there at least one detail that shows the maker anticipated a need?
-6. **Ownership test.** Would someone want to maintain this? Disposable output is a smell.
+6. **Contrast test.** Is there one deliberate move (a color, a jump in scale, a break in the grid) that the rest of the design is built around? Cover it with your hand: if the screen goes flat, it was doing real work. Good surprise is a deliberate choice that resolves, not randomness.
+7. **Echo test.** Do motifs such as radius, spacing, motion, and copy tone repeat at several levels in ways a user feels but can't name? Subtle, numerous echoes make a design feel like one thing; a single obvious repeat does not.
+8. **Ownership test.** Would someone want to maintain this? Disposable output is a smell.
 
 For anything important, ask a separate agent to critique the result adversarially, then keep pushing yourself. Expect several iterations; the first version is a draft.
 
@@ -46,6 +48,13 @@ Keep it short:
 
 ## Source and status
 
-Synthesized from Katie Dill (Stripe), "How to scale intent, quality, and artistry with AI", Lenny and Friends Summit, September 2026: https://www.youtube.com/watch?v=GLvFTMtw4Jk. The framing (point of view, encoded standards, editor pass) follows the talk; the six checks are my own condensation.
+Synthesized from two sources:
 
-Status: draft v0.1, untested. Add changes below with a one-line reason.
+- Katie Dill (Stripe), "How to scale intent, quality, and artistry with AI", Lenny and Friends Summit, September 2026: https://www.youtube.com/watch?v=GLvFTMtw4Jk. The framing (point of view, encoded standards, editor pass) follows the talk.
+- Nabeel Qureshi, "What Makes Art Great?": https://nabeelqu.substack.com/p/what-makes-art-great. The contrast and echo tests come from its surprise and echoes sections, using its Fra Angelico and Chartres rose window examples.
+
+The eight checks are my own condensation of both.
+
+Status: draft v0.2, untested. Add changes below with a one-line reason.
+
+- v0.2: added contrast and echo tests from the Qureshi article.
