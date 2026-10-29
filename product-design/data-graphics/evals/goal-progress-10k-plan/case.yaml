@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: goal-progress-10k-plan
+expected_outcome: |
+  Shows progress on a 12-week plan in a way specific to the product, not a stock bar chart or progress bar. Says what it shows beyond text, points to what's next, and gives 2-3 viewable directions with an empty state.

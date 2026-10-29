@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: profiler-token-cost-view
+expected_outcome: |
+  A precision-tool view where readability wins: the most expensive sessions are identifiable at a glance. A familiar chart form is acceptable if it is clearest; decoration must not hurt precision.

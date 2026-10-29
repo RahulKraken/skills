@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: sleep-week-widget
+expected_outcome: |
+  A week-of-sleep widget that avoids the row-of-7-circles or bar-chart default, keeps positive framing on missed nights, and gives 2-3 viewable directions with an empty state.

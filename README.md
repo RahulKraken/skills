@@ -44,3 +44,4 @@ ln -s "$PWD/product-design/ai-ui-quality-review" ~/.claude/skills/ai-ui-quality-
 | Skill | Domain | Status |
 | --- | --- | --- |
 | `ai-ui-quality-review` | product-design | draft v0.2 |
+| `data-graphics` | product-design | v6, tested |
