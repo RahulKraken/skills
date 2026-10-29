@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: bloated-coach
+expected_outcome: |
+  Deletes what shouldn't exist, keeps every capability, collapses fake agents, proves it with tests, reports briefly.

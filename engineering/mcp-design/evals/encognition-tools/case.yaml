@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: encognition-tools
+expected_outcome: |
+  Tool names that sell value to agents, detailed descriptions with when/when not, confirmation on memory changes, hooks or server-side capture, few tools.

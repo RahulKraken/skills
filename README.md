@@ -16,6 +16,7 @@ Things I learn, converted into Claude skills. Notes tell me something; a skill c
 ```
 _inbox/           raw daily learnings, promoted weekly or dropped
 _upstream/        other people's skills I forked from
+global/           CLAUDE.md, my always-on rules (symlinked to ~/.claude/CLAUDE.md)
 product-design/   <skill-name>/SKILL.md
 engineering/
 architecture/
@@ -45,3 +46,13 @@ ln -s "$PWD/product-design/ai-ui-quality-review" ~/.claude/skills/ai-ui-quality-
 | --- | --- | --- |
 | `ai-ui-quality-review` | product-design | draft v0.2 |
 | `data-graphics` | product-design | v6, tested |
+| `ui-copy` | product-design | v1, tested |
+| `screen-polish` | product-design | v1, tested |
+| `landing-page` | marketing | v1, tested |
+| `test-as-a-user` | engineering | v1, tested |
+| `paid-generation` | engineering | v1, tested |
+| `mcp-design` | engineering | v1, tested |
+| `idle-cost-infra` | architecture | v1, tested |
+| `lean-refactor` | architecture | v1, tested |
+
+"Tested" means one blind A/B round: the same prompt with and without the skill, judged without knowing which was which. Test cases live in each skill's `evals/`.

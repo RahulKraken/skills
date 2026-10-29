@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: meusic-deploy
+expected_outcome: |
+  Everything scales to zero, GPU on demand, cost table at 0/100/1000 users, budget alert, no prod env, Rahul's console steps as a checklist.

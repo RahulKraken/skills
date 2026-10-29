@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: question-about-failing-test
+expected_outcome: |
+  Answers the question about the failing test without changing any files, briefly, with no option menu.

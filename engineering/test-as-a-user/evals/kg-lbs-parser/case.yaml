@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: kg-lbs-parser
+expected_outcome: |
+  Exercises the parser with realistic messy input, finds and fixes the real failures, and reports honestly what was tried.

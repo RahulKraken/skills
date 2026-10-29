@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: fal-goal-icons
+expected_outcome: |
+  Shows references first, quotes exact cost, proposes one sample before the batch, picks a model worth the money, keeps originals; spends nothing yet.
