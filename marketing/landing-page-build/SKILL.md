@@ -115,7 +115,7 @@ Design every state; empty and loading are where premium shows.
 - Hover, active (`scale(0.98)` or a 1px press), visible focus ring.
 - Form: idle, typing, invalid (inline, specific), submitting, success (the warm close), already-joined, offline or server error.
 - Loading: skeletons shaped like the real layout, never a bare spinner.
-- Dark mode if the page supports it, designed, not inverted.
+- Dark mode, designed rather than inverted, following `prefers-color-scheme`.
 - No dead links. A button to `#` is either wired or not there.
 
 ### B9. Ship checklist
@@ -136,4 +136,4 @@ Domain, DNS, hosting, the form backend and analytics accounts are outward-facing
 
 ## Your message to Rahul
 
-About 60 words: what you built, screenshots at desktop and phone width, and any `{{placeholders}}` he needs to fill.
+About 60 words: what you built and screenshots at desktop and phone width. Then a short **launch checklist** for Rahul, one line each: every `{{placeholder}}` and missing asset, the form backend (what it receives), domain and DNS, and hosting. Never let the form show success when nothing was saved.

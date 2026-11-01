@@ -49,7 +49,7 @@ ln -s "$PWD/product-design/ai-ui-quality-review" ~/.claude/skills/ai-ui-quality-
 | `ui-copy` | product-design | v1, tested |
 | `screen-polish` | product-design | v1, tested |
 | `landing-page` | marketing | v1, tested |
-| `landing-page-build` | marketing | v1, forked from elayadesign |
+| `landing-page-build` | marketing | v1, tested (fork of elayadesign) |
 | `test-as-a-user` | engineering | v1, tested |
 | `paid-generation` | engineering | v1, tested |
 | `mcp-design` | engineering | v1, tested |

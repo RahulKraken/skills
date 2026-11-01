@@ -36,3 +36,7 @@ Result: `marketing/landing-page-build/`. It is a companion to my tested `landing
 | B10 ship requirements | Kept. Added: deploy, domain and form backend are mine to do, as a checklist. |
 | B11 mandatory tagline reveal | Dropped. I don't want taglines. |
 | Output format (outline, benefits, FAQ before code) | Dropped. Say what you'll build in a few lines, then build. |
+
+## Test, 2026-11-01
+
+One blind A/B on `evals/encognition-launch`, both runs with `landing-page`, one adding `landing-page-build`. With the skill: 4 of 6 graders vs 1 of 6. It added full sharing tags, every form state and marked placeholders; the baseline faked success with no endpoint. Both missed a real launch checklist and the skill run dropped dark mode, so v1 now requires both.
