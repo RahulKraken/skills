@@ -54,5 +54,6 @@ ln -s "$PWD/product-design/ai-ui-quality-review" ~/.claude/skills/ai-ui-quality-
 | `mcp-design` | engineering | v1, tested |
 | `idle-cost-infra` | architecture | v1, tested |
 | `lean-refactor` | architecture | v1, tested |
+| `stageshow` | _upstream (Benji Taylor, MIT) | imported, untested |
 
 "Tested" means one blind A/B round: the same prompt with and without the skill, judged without knowing which was which. Test cases live in each skill's `evals/`.
