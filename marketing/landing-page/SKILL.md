@@ -34,6 +34,7 @@ Rahul has rejected about 15 landing-page concepts across Meusic, Encognition and
 
 1. **Design**: research references, build the page, then render it at desktop and phone width and look. For a scroll-driven page, capture several scroll positions, not just the first frame, and make the first frame strong on its own: it's what a stranger sees before deciding to scroll. If any art is drawn in code, look at it closely; Rahul has called code-drawn art "trash", so keep it simple and crafted, or use real artwork. Check the story reads with the text hidden, every section connects, nothing is cut off, and it doesn't look like a template.
 2. **Text pass** with the `ui-copy` skill: list every visible line, keep only lines that carry the feeling or the ask, change words without touching the design.
+3. **Build and ship pass** with the `landing-page-build` skill: tokens, motion implementation, every form state, SEO and sharing tags, and the launch checklist.
 
 Your message to Rahul: about 60 words, the feeling the page creates and how.
 
