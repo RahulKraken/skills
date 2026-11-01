@@ -1,0 +1,1 @@
+a static bento grid of four tiles for pillar's homepage features section. light, quiet, very little text: one tile shows a piece of the coach's dashboard, the others a stat, the client's phone, and a small diagram of how a client's check-in reaches the coach.
