@@ -31,6 +31,8 @@ Every DESIGN.md has these sections, in this order. Template: `references/DESIGN.
 
 ## Choose the mode
 
+Create when there is a brief and no system. Extract when screens or code exist. Extend during normal work. When Rahul asks for a system "from scratch" or "from the feel", use Create even if old screens exist: do not copy them.
+
 ### Extract: the product already has screens or code
 
 1. Find what exists: token files (colours, type, spacing, motion), component code, design boards, notes, tests, and decisions in commit messages. Code is the truth when code and a board disagree; list each disagreement under Open decisions.
@@ -38,12 +40,19 @@ Every DESIGN.md has these sections, in this order. Template: `references/DESIGN.
 3. Write the Feeling section as a **proposal**: infer the words and concept from what the product already does, mark it `Proposed, ask Rahul`, and say what evidence you used. Never present an inferred feeling as decided.
 4. List the gaps (no colour personality, no signature moment, motion that is only functional) under Open decisions.
 
-### Create: a new product
+### Create: a new product, from a brief
 
-1. Run `design-feeling` section 1 with Rahul: three feeling words, the concept, the peaks. One short exchange, not a questionnaire.
-2. Build two or three directions as rendered samples of the same key screen, each a full answer to the feeling (palette, type, one signature motion). Put them side by side on one page and let Rahul pick. He judges visuals, not descriptions.
-3. Write the picked direction as tokens in code (CSS custom properties, a Swift `Palette`/`Motion`/`Metrics`, or the platform's equivalent) and as DESIGN.md.
-4. Build one real screen from the system and record it (`review-screen`). Fix the system, not only the screen.
+The input is a description of the product and how it should feel. The output is a system that makes every screen feel that way. Do not jump to screens.
+
+1. **Brief.** Get from Rahul, or write down from what he said: the product in a few lines, who it is for, three feeling words, what it must never feel like, the key moments, the platform. One short exchange, not a questionnaire. Write it as the top of DESIGN.md section 1.
+2. **Translate.** Go layer by layer through `references/feeling-to-system.md`: colour, type, shape, space, depth, motion physics, haptics, icons and illustration, voice. For each decision write one line on why it makes the product feel like the brief. A decision without that line is a default; change it.
+3. **Three directions.** Build three genuinely different readings of the brief, each one satisfying every feeling word and every "never" (no straw men), each a complete mini-system, each shown on the same key screen in motion. Put them side by side on one page (`directions.html`), each named with its trade-off and its one-line rationale for each layer. Record it (`review-screen`). Rahul picks or mixes; he judges visuals, not descriptions. When he is not there, pick the one that best fits the brief, say why, and keep the page for him.
+4. **Codify.** Write the chosen direction as:
+   - tokens in code: CSS custom properties, or Swift `Palette`, `TypeStyle`, `Metrics`, `Motion`, `Haptic` (light and dark from the start);
+   - `DESIGN.md` from `references/DESIGN.template.md`, with every section filled or listed under Open decisions;
+   - `gallery.html`: a living specimen with the palette in light and dark, the type scale, every component in every state, and each named motion playing.
+5. **Prove it.** Build two or three of the key moments as real screens using only the tokens and named motions. Record them (`review-screen`). Where a screen needs something the system lacks, fix the system first, then the screen.
+6. **Check against the brief.** For each feeling word and each "never", name where the screens show it. Add what is still weak to Open decisions.
 
 ### Extend: during normal work
 

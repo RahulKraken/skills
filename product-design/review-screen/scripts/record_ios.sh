@@ -23,5 +23,5 @@ ffmpeg -v error -y -i "$raw" -vf "fps=30,scale=-2:900:flags=lanczos" -c:v libx26
   -pix_fmt yuv420p -movflags +faststart "$out/sim.mp4"
 rm -f "$raw"
 ffmpeg -v error -y -i "$out/sim.mp4" -frames:v 1 "$out/still.png"
-ffmpeg -v error -y -i "$out/sim.mp4" -vf "fps=6,scale=240:-2,tile=10x12:padding=4:color=white" -frames:v 1 "$out/frames.jpg"
+ffmpeg -v error -y -i "$out/sim.mp4" -vf "fps=6,scale=240:-2,tile=10x$(( (seconds*6+10)/10 )):padding=4:color=white" -frames:v 1 "$out/frames.jpg"
 echo "$out: sim.mp4, still.png, frames.jpg"
