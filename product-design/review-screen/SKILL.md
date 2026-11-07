@@ -13,7 +13,7 @@ Claude judges its UI from the code and stops at "close enough". It almost never 
 
 Record the screen or flow before judging it.
 
-- **Web or HTML mock:** `python3 scripts/record_web.py <page.html or URL> <out-dir> [--demo "window.__demo()"]`. It writes a still, a video cropped to the phone if there is one, and a frame sheet of the motion (`frames.jpg`, 6 frames a second). Read the still and the frame sheet.
+- **Web or HTML mock:** `python3 scripts/record_web.py <page.html or URL> <out-dir> [--demo "window.__demo()"]`. It writes a still, a video cropped to the phone if there is one, and a frame sheet of the motion (`frames.jpg`, 6 frames a second). Read the still and the frame sheet. It also prints any stretch of half a second or more where the screen is nearly blank (`blank.txt`): fix each one unless it is a deliberate splash.
 - **iOS:** `scripts/record_ios.sh <out-dir> [seconds]` records the booted simulator and makes the same frame sheet. Drive the flow while it records (UI test, `simctl` URL, or by hand).
 
 Look at the frame sheet transition by transition. Two rounds of fix and re-record at most, then show Rahul with the recording.

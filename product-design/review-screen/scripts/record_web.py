@@ -84,7 +84,41 @@ def main():
                     f"fps=6,scale=240:-2,tile=10x{rows}:padding=4:color=white", "-frames:v", "1",
                     os.path.join(a.out, "frames.jpg")], check=True)
     open(os.path.join(a.out, "console.txt"), "w").write("\n".join(log))
-    print(f"{a.out}: phone {'found' if box else 'not found'}, {len(log)} console lines")
+    blanks = find_blank_stretches(phone)
+    for start, end in blanks:
+        log_line = f"near-blank screen from {start:.1f}s to {end:.1f}s"
+        print("WARNING:", log_line)
+    open(os.path.join(a.out, "blank.txt"), "w").write(
+        "\n".join(f"{s:.1f}-{e:.1f}s" for s, e in blanks) or "none")
+    print(f"{a.out}: phone {'found' if box else 'not found'}, {len(log)} console lines, "
+          f"{len(blanks)} near-blank stretches")
+
+
+def find_blank_stretches(video, fps=6, min_seconds=0.5):
+    """Stretches where the screen shows almost nothing: the classic 'blank frame' between states.
+
+    A frame counts as near-blank when the centre of the screen has very little detail compared
+    with the median frame of the same video.
+    """
+    import numpy as np
+    w, h = 120, 260
+    raw = subprocess.run(["ffmpeg", "-v", "error", "-i", video, "-vf", f"fps={fps},scale={w}:{h},format=gray",
+                          "-f", "rawvideo", "-"], capture_output=True, check=True).stdout
+    frames = np.frombuffer(raw, dtype=np.uint8).reshape(-1, h, w).astype(float)
+    if len(frames) == 0:
+        return []
+    core = frames[:, int(h * 0.12):int(h * 0.88), int(w * 0.08):int(w * 0.92)]
+    detail = np.abs(np.diff(core, axis=2)).mean(axis=(1, 2)) + np.abs(np.diff(core, axis=1)).mean(axis=(1, 2))
+    limit = np.median(detail) * 0.25
+    stretches, start = [], None
+    for i, d in enumerate(list(detail) + [limit + 1]):
+        if d < limit and start is None:
+            start = i
+        elif d >= limit and start is not None:
+            if (i - start) / fps >= min_seconds:
+                stretches.append((start / fps, i / fps))
+            start = None
+    return stretches
 
 
 if __name__ == "__main__":
