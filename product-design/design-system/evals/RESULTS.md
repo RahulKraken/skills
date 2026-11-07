@@ -1,3 +1,16 @@
+# A/B round 3 (2026-11-07): design-system v0.3 vs v0.2, Groove from scratch
+
+Same brief and request. v0.3 adds banned defaults, native type, directions from different bases, the full inventory (`references/inventory.md`) and the signature layer. 2 new runs (D) against the two v0.2 runs (C) from round 2. One blind LLM judge, given Rahul's stated taste (shipped app, cream/serif reads generic, Figma-grade completeness, magic). 6 graders, /30.
+
+| | v0.3 run 2 | v0.3 run 1 | v0.2 run 2 | v0.2 run 1 |
+| --- | --- | --- | --- | --- |
+| Total | **28** | 26 | 17 | 16 |
+
+Mean 27 vs 16.5. v0.3 wins on every grader; the biggest gaps are "not generic" (4, 4 vs 2, 1) and completeness (5, 5 vs 2, 3).
+Both v0.3 systems are native white with SF text styles; the v0.2 ones were cream with serif. Both v0.3 libraries cover the iOS baseline in every state, light and dark, product components, patterns and system surfaces (widgets, Live Activity, notifications); one generates SwiftUI tokens.
+Weak spots: both v0.3 runs chose the same concept (a week as one lap of a running track), so convergence moved from colour to concept; near-blank frames between moments in every run. `record_web.py` now flags near-blank stretches automatically.
+Caveats: n=2, one LLM judge, and the judge was told the taste the fixes target, which favours v0.3. Rahul has not judged yet; type was rendered in a fallback font.
+
 # A/B round 2 (2026-11-07): Groove from scratch (create mode)
 
 Input: `groove-from-scratch/brief.md` (product principles and feel only, no existing visuals).
