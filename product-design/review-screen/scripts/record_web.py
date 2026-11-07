@@ -76,8 +76,12 @@ def main():
     subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", webm, "-vf", f"{crop}scale=-2:900:flags=lanczos",
                     "-c:v", "libx264", "-preset", "veryfast", "-crf", "20", "-pix_fmt", "yuv420p",
                     "-movflags", "+faststart", phone], check=True)
+    # 6 frames a second, as many rows as the recording needs (10 frames a row).
+    dur = float(subprocess.check_output(["ffprobe", "-v", "error", "-show_entries", "format=duration",
+                                         "-of", "csv=p=0", phone]).decode())
+    rows = max(1, -(-int(dur * 6 + 1) // 10))
     subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", phone, "-vf",
-                    "fps=6,scale=240:-2,tile=10x12:padding=4:color=white", "-frames:v", "1",
+                    f"fps=6,scale=240:-2,tile=10x{rows}:padding=4:color=white", "-frames:v", "1",
                     os.path.join(a.out, "frames.jpg")], check=True)
     open(os.path.join(a.out, "console.txt"), "w").write("\n".join(log))
     print(f"{a.out}: phone {'found' if box else 'not found'}, {len(log)} console lines")

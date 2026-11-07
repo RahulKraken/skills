@@ -51,6 +51,10 @@ Starting points, tuned by watching and not by numbers: presses around 150 ms, UI
 - **Air.** More spacing than feels necessary. Lightness is mostly empty space that is doing work.
 - **Words.** A headline and at most one line of support. Turn numbers into human phrases ("Playing it by Wednesday", "the same 25 km you're used to"). Detail screens keep the same text budget as hero screens.
 
+## 4b. Professional first
+
+It must look like a shipped app from a great team, not a design experiment. Rahul picked a plain, native-feeling Groove screen over three more "designed" ones because it "looks like a professional app and not some science project done by a designer", and still disliked its decorative graphic. So: native structure and stock-feeling chrome first; character comes from colour, type, motion and words; a graphic appears only where it carries meaning a person needs, and must be crafted enough to sit next to Apple's own art. When in doubt, leave the graphic out.
+
 ## 5. The peak
 
 Spend most of the craft on the peak from section 1. It usually comes from one of these:
