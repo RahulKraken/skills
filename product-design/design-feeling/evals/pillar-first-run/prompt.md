@@ -1,0 +1,1 @@
+build pillar's first-run onboarding as an html mock. pillar is an ai health coach on iphone: it connects apple health, learns what you're training for, and ends with your coach's first plan for the week. 3 or 4 screens, and show how it moves between them.
