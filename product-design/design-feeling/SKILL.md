@@ -39,7 +39,8 @@ Starting points, tuned by watching and not by numbers: presses around 150 ms, UI
 
 - **Derive the palette from the feeling and the concept's material**: morning paper and ink, brass and walnut, pool water and chalk. Light or dark is a decision for each product, never a default. Calm, health and daytime products often want light. Night, cinema and music may want dark. Do not reach for dark-with-glow because it looks dramatic.
 - **One temperature family and one meaningful accent.** The accent marks what matters (the new chord, today, the choice). It is not decoration.
-- **Colour as light.** Tints and soft gradients that behave like light falling on something, not flat fills or rainbows. Warm off-whites and softened darks instead of pure white or black.
+- **Colour as light.** Tints and soft gradients that behave like light falling on something, not flat fills or rainbows.
+- **No cream by reflex.** "Warm" in a brief is not a reason for a cream or paper background with a terracotta accent; that is the most common AI look. Warmth comes from words, motion, photos and the accent. System white or grouped grey is often the most confident base for a native app.
 - **Contrast is a hierarchy.** High contrast only for what matters now; everything secondary sits quietly at low contrast.
 - **Squint test.** Blur your eyes at the screen: does the colour alone still say the three words?
 
