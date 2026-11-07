@@ -45,14 +45,14 @@ Create when there is a brief and no system. Extract when screens or code exist. 
 The input is a description of the product and how it should feel. The output is a system that makes every screen feel that way. Do not jump to screens.
 
 1. **Brief.** Get from Rahul, or write down from what he said: the product in a few lines, who it is for, three feeling words, what it must never feel like, the key moments, the platform. One short exchange, not a questionnaire. Write it as the top of DESIGN.md section 1.
-2. **Translate.** Go layer by layer through `references/feeling-to-system.md`: colour, type, shape, space, depth, motion physics, haptics, icons and illustration, voice. For each decision write one line on why it makes the product feel like the brief. A decision without that line is a default; change it.
+2. **Translate.** Read the banned defaults in `references/feeling-to-system.md` first. Then go layer by layer: colour, type, shape, space, depth, motion physics, haptics, icons and illustration, voice. For each decision write one line on why it makes the product feel like the brief. A decision without that line is a default; change it.
 3. **Three directions.** Build three genuinely different readings of the brief, each one satisfying every feeling word and every "never" (no straw men), each a complete mini-system, each shown on the same key screen in motion. Put them side by side on one page (`directions.html`), each named with its trade-off and its one-line rationale for each layer. Record it (`review-screen`). Rahul picks or mixes; he judges visuals, not descriptions. When he is not there, pick the one that best fits the brief, say why, and keep the page for him.
 4. **Codify.** Write the chosen direction as:
    - tokens in code: CSS custom properties, or Swift `Palette`, `TypeStyle`, `Metrics`, `Motion`, `Haptic` (light and dark from the start);
    - `DESIGN.md` from `references/DESIGN.template.md`, with every section filled or listed under Open decisions;
-   - `gallery.html`: a living specimen with the palette in light and dark, the type scale, every component in every state, and each named motion playing.
+   - `gallery.html`: the library, built from `references/inventory.md`: foundations, the platform's baseline components, the product's own components, patterns and the signature layer, each item in every variant and state, light and dark, with token names. A palette and ten components is a style sheet, not a system.
 5. **Prove it.** Build two or three of the key moments as real screens using only the tokens and named motions. Record them (`review-screen`). Where a screen needs something the system lacks, fix the system first, then the screen.
-6. **Check against the brief.** For each feeling word and each "never", name where the screens show it. Add what is still weak to Open decisions.
+6. **Check against the brief.** For each feeling word and each "never", name where the screens show it. Check the banned defaults list against the result. Name the signature moment, component and motion, and say honestly whether someone would describe them to a friend. Add what is still weak to Open decisions.
 
 ### Extend: during normal work
 
