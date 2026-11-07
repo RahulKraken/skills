@@ -1,0 +1,1 @@
+build the sunday 'your week' screen for groove as an html mock. groove is an ai health coach on iphone. on sunday evening the coach shows how the week went across training, fueling and recovery, and what changes next week. show how it moves.
