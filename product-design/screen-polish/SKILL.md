@@ -20,6 +20,7 @@ Keep them apart. Polishing words while designing made designs thinner in testing
 
 ## Before drawing
 
+- **Read the product's DESIGN.md** and use its tokens and named motions. If there is none, use `design-system` first. Use `design-feeling` for the feeling and the peak moment, and `review-screen` before calling it done.
 - **Look at real references first**: Gentler Streak, Apple's own apps, ChatGPT, Claude, Flighty, GarageBand, Mobbin. Note the principle you take from each, not the look. "I'm not saying copy it, but principles." Without references, Claude draws the average.
 - **Name the most frequent action** on this screen. Everything is arranged around making it fast.
 

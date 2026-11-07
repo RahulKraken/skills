@@ -50,6 +50,9 @@ ln -s "$PWD/product-design/ai-ui-quality-review" ~/.claude/skills/ai-ui-quality-
 | `data-graphics` | product-design | v6, tested |
 | `ui-copy` | product-design | v1, tested |
 | `screen-polish` | product-design | v1, tested |
+| `design-feeling` | product-design | v0.2, tested (2 rounds, see evals/RESULTS.md) |
+| `design-system` | product-design | v0.1, piloted on Groove |
+| `review-screen` | product-design | v0.1 |
 | `landing-page` | marketing | v1, tested |
 | `landing-page-build` | marketing | v1, tested (fork of elayadesign) |
 | `test-as-a-user` | engineering | v1, tested |
