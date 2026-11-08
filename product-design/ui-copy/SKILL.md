@@ -26,6 +26,8 @@ Rules alone didn't fix this in testing. What worked was listing every visible li
 ## The budget
 
 - One headline per surface at most. Short labels only where they name a fact on the design itself.
+- One line says one thing. "Mon 2 Nov · 98 of 135 g" holds two facts: give the second its own place (a right column, its own row), make one real sentence, or cut it. A "·" that joins two facts is the tell.
+- A sheet or card does not name itself ("Why “knee feeling”", "Protein target"). It starts with the answer; the thing the person just tapped says what it is about.
 - No eyebrow labels ("SLEEP · LAST 7 NIGHTS"), legends that colour can teach, captions, status chips that repeat the headline, usage hints ("Tap to see more"), "(optional)" tags or scaffolding like "Why:" and "Next:".
 - Icons over words for controls; words for teaching and feedback.
 - Empty states: one short, warm line. Errors: what happened and what to do, in one sentence.
