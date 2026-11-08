@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: memory-layer-bet
+expected_outcome: |
+  Treats "validated" as a hypothesis, separates diagnostic from non-diagnostic evidence, and sets a cheap test with a prediction and kill criteria before any build.

@@ -17,6 +17,7 @@ Things I learn, converted into Claude skills. Notes tell me something; a skill c
 _inbox/           raw daily learnings, promoted weekly or dropped
 _upstream/        other people's skills I forked from
 global/           CLAUDE.md, my always-on rules (symlinked to ~/.claude/CLAUDE.md)
+product/          <skill-name>/SKILL.md
 product-design/   <skill-name>/SKILL.md
 engineering/
 architecture/
@@ -44,6 +45,7 @@ ln -s "$PWD/product-design/ai-ui-quality-review" ~/.claude/skills/ai-ui-quality-
 
 | Skill | Domain | Status |
 | --- | --- | --- |
+| `product-thinking` | product | draft v0.1, untested |
 | `ai-ui-quality-review` | product-design | draft v0.2 |
 | `data-graphics` | product-design | v6, tested |
 | `ui-copy` | product-design | v1, tested |
