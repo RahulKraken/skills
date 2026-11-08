@@ -50,9 +50,9 @@ ln -s "$PWD/product-design/ai-ui-quality-review" ~/.claude/skills/ai-ui-quality-
 | `data-graphics` | product-design | v6, tested |
 | `ui-copy` | product-design | v1, tested |
 | `screen-polish` | product-design | v1, tested |
-| `design-feeling` | product-design | v0.2, tested (2 rounds, see evals/RESULTS.md) |
-| `design-system` | product-design | v0.1, piloted on Groove |
-| `review-screen` | product-design | v0.1 |
+| `design-feeling` | product-design | v0.2, tested (2 rounds) |
+| `design-system` | product-design | v0.3, tested (3 rounds) |
+| `review-screen` | product-design | v0.1, used in every round |
 | `landing-page` | marketing | v1, tested |
 | `landing-page-build` | marketing | v1, tested (fork of elayadesign) |
 | `test-as-a-user` | engineering | v1, tested |
@@ -63,3 +63,15 @@ ln -s "$PWD/product-design/ai-ui-quality-review" ~/.claude/skills/ai-ui-quality-
 | `stageshow` | _upstream (Benji Taylor, MIT) | A/B round 1 lost 0/2 (weak test, see evals/RESULTS.md) |
 
 "Tested" means one blind A/B round: the same prompt with and without the skill, judged without knowing which was which. Test cases live in each skill's `evals/`.
+
+## Design workflow
+
+The design skills chain. Each one says when to hand over to the next.
+
+1. `design-system`: a new product starts here. From a brief (what it is, how it should feel, what it must never feel like) it makes three directions, then writes the picked one as `DESIGN.md`, tokens in code and a gallery library. It also extracts a system from an existing product and extends it as screens are built.
+2. `design-feeling`: each screen or flow, inside that system. Feeling words, the peak moment, motion, colour.
+3. `screen-polish` and `ui-copy`: layout, states and words.
+4. `review-screen`: before any UI is called done. Records the flow, checks the frame sheet and blank frames, and checks against `DESIGN.md`.
+
+Test results are in each skill's `evals/RESULTS.md`.
+

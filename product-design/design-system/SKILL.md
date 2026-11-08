@@ -71,3 +71,11 @@ The input is a description of the product and how it should feel. The output is 
 ## Done means
 
 DESIGN.md exists at the path the project uses (`design/DESIGN.md` or the root), the project's agent file (`AGENTS.md` or `CLAUDE.md`) points to it, every section is filled or listed under Open decisions, and one screen built from it passes `review-screen`.
+
+## Source and status
+
+Built 7–8 Nov 2026 from Rahul's design sessions, rico's "Build the design system and skills your agent can follow" (https://x.com/_heyrico/status/2116953958279479760), Anthropic's frontend-design skill notes on distributional convergence, and Google's DESIGN.md format, extended with feeling, motion and voice.
+
+- v0.1: extract and extend modes; piloted on Groove (screens fit the product: 5/5 vs 1/5).
+- v0.2: create mode from a brief, `feeling-to-system.md`, three directions. Tied with no skill (29.5 vs 29.5): every run converged on cream and clay.
+- v0.3: banned defaults, native type, directions from different bases, full `inventory.md`, signature layer. Beat v0.2 27 vs 16.5. Open: concept convergence (both runs drew the week as a running lap); Rahul's own judgement pending.

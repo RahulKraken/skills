@@ -36,3 +36,7 @@ Read the project's DESIGN.md first. If there is none, say so and use `design-sys
 - **Verdict:** one line, ready or not, and why.
 - **Fixes:** ranked by what Rahul would notice first, each with the frame or line and the concrete change.
 - Fix them when the task was to build; otherwise propose. Send the recording with the result.
+
+## Status
+
+v0.1. `record_web.py` was used in every design A/B round on 7–8 Nov 2026; its blank-frame check matched every blank the blind judges reported. `record_ios.sh` is untested: it needs a Mac with Xcode.
