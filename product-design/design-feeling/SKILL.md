@@ -27,7 +27,7 @@ In every sample, nothing simply appears. Things travel, settle and react.
 - **Continuity.** An element becomes the next thing instead of being replaced. What was tapped grows into the next screen; the chosen object flies to where it will live. Keep the concept present on every screen, even if only as a small anchor, so the thread never breaks.
 - **Weight and settle.** Objects move on springs: a slight overshoot, then rest. UI eases out. Nothing starts or stops dead, and nothing moves linearly.
 - **Arrive as a group.** Related parts arrive slightly staggered, like a group that walks in together rather than a block that drops in.
-- **Answer the touch at once.** A press gives instant feedback (a slight scale or tint). While dragging or holding, the visual follows the finger; on release, a self-running animation finishes it.
+- **Answer the touch at once.** A press gives instant feedback (a slight scale or tint). While dragging or holding, the visual follows the finger; on release, a self-running animation finishes it. On a phone, the moments that matter get a crisp, short haptic from the product's vocabulary, never a long buzz.
 - **Light motion.** Short distances, opacity together with a small move, a soft blur that resolves into focus. Heavy motion uses long distances, hard cuts and everything moving at once.
 - **Calm motion.** One thing leads and the rest follows or waits. If three things compete, choreograph them into an order.
 - **A little ambient life.** A slow breath, a glint crossing a material, light drifting. It should be barely noticed and never noisy.
@@ -82,6 +82,7 @@ Record the flow, watch it at real speed, then step through it slowly:
 4. Is it calm? Does one thing lead at a time?
 5. Cover the peak: does the flow go flat? If not, the peak isn't doing work.
 6. Would the palette and concept fit a competitor unchanged?
+7. **Hunt the jolts.** Look for the small seams people feel but can't name: a corner whose curvature kinks, two radii or spacings that almost match, a shadow from a different light, an element that lands a frame late, a number that jumps instead of counts, a keyboard that shoves the layout. Fix the ones you have stopped noticing.
 
 Fix what you find and watch again.
 

@@ -19,6 +19,7 @@ Product bets are analysis under uncertainty, and the analyst's own mind is the b
 6. **Don't buy confidence with more data.** Before another round of interviews or dashboards, check whether the model itself needs rethinking.
 7. **Pre-register before building.** Write the prediction ("I expect X% to do Y within Z, because…") and the kill criteria (what result makes us stop or pivot), while nothing is invested yet.
 8. **Name the expert blind spot.** Deep domain knowledge hides how newcomers see the problem. Plan to watch a non-expert use it.
+9. **Decide the feeling before the scope.** Once a bet passes, write the experience it must give (three feeling words) and the 3–5 moments users touch most (first open, first value, the daily action, confirmation, the return). Spend effort there; elsewhere "fine" is fine. Let the feeling set the engineering constraints, not the reverse. Hand the details to `design-system` and `design-feeling`; check the whole with `product-review`.
 
 ## How to report
 
@@ -39,3 +40,7 @@ Add new lessons here: one line, the behavior it changes, and the source.
 - First impressions anchor; delay judgment on ambiguous early data. (Heuer, ch. 2)
 - Absence of expected evidence is evidence. (Heuer)
 - Hindsight inflates how right you were; write predictions down. (Heuer, ch. 13)
+- Quality is mostly the absence of small frictions users feel but can't name; plan for removing jolts, not adding features. (Apple design teardown, Aman, Mar 2026)
+- Over-invest at the few high-contact moments (Apple's unboxing, the Face ID tick); they set the impression of the whole product. (same)
+- A moat is many small processes tuned together over years (Apple's colour, material, finish), not one trick a rival can copy. Prefer bets that compound. (same)
+- Apple chose the feel first (one-hand lid, unibody) and then solved the hard engineering it forced. Decide the experience, then the build. (same)

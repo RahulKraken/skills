@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: seams-not-screens
+expected_outcome: |
+  Reviews the product as a journey against its feeling words, finds the seams between touchpoints (notification, email, error) rather than re-reviewing single screens, and returns a short verdict with ranked fixes.

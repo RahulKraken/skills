@@ -37,6 +37,7 @@ These are what models reach for when a brief says "warm", "calm" or "premium". T
 ## Shape language
 
 - Radius is personality: tight radii feel precise and serious; large continuous radii feel soft and friendly; capsules feel tappable. Choose one family and nest radii consistently (inner = outer minus padding).
+- **Corners are continuous, everywhere.** A plain circular arc meets the straight edge with a visible kink in the highlight; a continuous (squircle, G2) corner does not. SwiftUI: `RoundedRectangle(cornerRadius:style: .continuous)` or `.clipShape(.rect(cornerRadius:style: .continuous))`. Web: `corner-shape: squircle` where supported, with a slightly smaller `border-radius` as the fallback, or an SVG superellipse mask for the hero object. The same corner rule applies to cards, buttons, sheets, images, icons and widgets: one curve, no exceptions. (Apple has used it from hardware to icons since iOS 7.)
 - Decide what has a container at all. Fewer boxes feel calmer.
 
 ## Space and density

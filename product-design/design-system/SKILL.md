@@ -63,6 +63,7 @@ The input is a description of the product and how it should feel. The output is 
 
 ## Keep it true
 
+- One primitive, no exceptions. A good rule applied everywhere (one corner curve, one spacing scale, one motion vocabulary, one accent rule) beats many good one-off choices: the consistency is what users feel. When a screen wants an exception, change the system or drop the exception.
 - One place for each value. DESIGN.md names the token and its source file; when it shows values for quick reading, it says which file wins.
 - Short beats complete. An agent reads every word, every time. Put long catalogues (all 192 boards) in the sources, not in DESIGN.md.
 - Use the project's own language rules for the file (for example ASD-STE100 for technical documents).
