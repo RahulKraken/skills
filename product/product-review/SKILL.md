@@ -15,17 +15,7 @@ Read the product's DESIGN.md Feeling section (three feeling words, the "never" l
 
 ## 2. Map the journey
 
-List every touchpoint a real user meets, in order, including the ones outside the app:
-
-1. **Before:** store page or landing page, icon, screenshots, first link someone shares.
-2. **First open:** launch, permissions, onboarding, sign-in.
-3. **First value:** the moment the product first does its job for this person. Time it.
-4. **The daily loop:** the most frequent action, start to finish.
-5. **Reaching out:** notifications, emails, widgets, share sheets, links back in.
-6. **When it breaks:** errors, offline, empty, slow network, bad input, a permission denied.
-7. **Money:** paywall, trial end, receipt, cancel.
-8. **The return:** opening after a week away, after an update, on a second device.
-9. **Leaving:** sign out, delete account, export.
+List the touchpoints a real user meets, in order, including the ones outside the app. They usually include the store or landing page, first open and permissions, first value (time it), the daily loop, notifications and emails, errors and offline, money, the return after time away, and leaving. These are prompts, not a form: skip what the product doesn't have, and add what is unique to it (a widget, a voice reply, a physical moment, a handoff to another person).
 
 Mark the 3–5 high-contact moments (the peaks and the daily loop). They get most of the scrutiny.
 
@@ -52,14 +42,16 @@ For each one, answer in a line:
 
 ## Output
 
-Short. Lead with the verdict.
-
-- **Verdict:** one line: does the product create the feeling, and where it breaks first.
-- **Journey table:** touchpoint · feeling words held or broken · the jolt (if any). High-contact rows first.
-- **Fixes:** ranked by what a user would feel first, each with the touchpoint, the evidence (frame, timing or line) and the concrete change. Mark system fixes. Five at most; the rest go in a list at the end.
-- **Not reviewed:** touchpoints that could not be reached (store page not live, no email set up), so the gaps are visible.
+Lead with the verdict: does the product create the feeling, and where does it break first. Then the fixes, ranked by what a user would feel first, each with its evidence (a frame, a timing, a line) and the concrete change; mark the system fixes. Size the rest to the ask: a full launch review earns a journey table and a note of what couldn't be reached; a quick feel-check is a few lines.
 
 Do not fix during the review unless Rahul asked for fixes. Outward-facing changes (store listing, emails to real users) are Rahul's to make: give him the change, not the action.
+
+## Where this bends
+
+- **Depth follows the stage.** A prototype gets a quick walk of the daily loop and the peak. A beta or launch gets the full journey, outside the app included.
+- **A narrow ask stays narrow.** "Does onboarding feel right?" reviews onboarding and the seams on either side of it, not the whole product.
+- **No build to walk** (only mocks or a description): review what exists, say what was judged from description, and don't invent findings.
+- **The feeling itself is wrong** (the product works but the stated feeling doesn't fit its users): say so as a finding, don't just grade against it.
 
 ## How this fits
 
