@@ -58,6 +58,7 @@ ln -s "$PWD/product-design/ai-ui-quality-review" ~/.claude/skills/ai-ui-quality-
 | `landing-page-build` | marketing | v1, tested (fork of elayadesign) |
 | `test-as-a-user` | engineering | v1, tested |
 | `paid-generation` | engineering | v1, tested |
+| `model-routing` | engineering | draft v0.1, untested |
 | `mcp-design` | engineering | v1, tested |
 | `idle-cost-infra` | architecture | v1, tested |
 | `lean-refactor` | architecture | v1, tested |
